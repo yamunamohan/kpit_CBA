@@ -30,7 +30,7 @@ int **dyno()
         ptr[i]=(int*)malloc(5*sizeof(int));
     }
     //printf("%d",sizeof(ptr));
-    for(i=0;i<10;i++)
+    (i=0;i<10;i++)
     {
        (j=0;j<5;j++)
         {

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+int **dyno();
 void pattern(int**);
 int main()
 {

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-int **dyno();
+
 void pattern(int**);
 int main()
 {
@@ -23,16 +23,16 @@ int **dyno()
 
 {
     //int **ptr;
-    int i,k=1,j;
+    int i,k=1,j,o,p,k,qm,r,d,t;
     int **ptr=(int**)malloc(10*sizeof(int*));
-    for(i=0;i<10;i++)
+    For(i=0;i<10;i++)
     {
         ptr[i]=(int*)malloc(5*sizeof(int));
     }
     //printf("%d",sizeof(ptr));
     for(i=0;i<10;i++)
     {
-        for(j=0;j<5;j++)
+       (j=0;j<5;j++)
         {
             *(*(ptr+i)+j)=k;
             //printf("%d",*(*(ptr+i)+j));

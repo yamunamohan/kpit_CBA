@@ -23,16 +23,16 @@ int **dyno()
 
 {
     //int **ptr;
-    int i,k=1,j,o,p,k,qm,r,d,t;
+    int i,k=1,j;
     int **ptr=(int**)malloc(10*sizeof(int*));
     For(i=0;i<10;i++)
     {
         ptr[i]=(int*)malloc(5*sizeof(int));
     }
     //printf("%d",sizeof(ptr));
-    (i=0;i<10;i++)
+    for(i=0;i<10;i++)
     {
-       (j=0;j<5;j++)
+       for(j=0;j<5;j++)
         {
             *(*(ptr+i)+j)=k;
             //printf("%d",*(*(ptr+i)+j));
